@@ -3,8 +3,13 @@ body {
   background-color: #f4f4f4;
   padding: 30px;
   color: #333;
-  background: rgb(51,57,116);
-  background: linear-gradient(90deg, rgba(51,57,116,1) 0%, rgba(137,70,133,1) 173%, rgba(206,90,127,1) 210%);
+  background: rgb(51, 57, 116);
+  background: linear-gradient(
+    90deg,
+    rgba(51, 57, 116, 1) 0%,
+    rgba(137, 70, 133, 1) 173%,
+    rgba(206, 90, 127, 1) 210%
+  );
 }
 .app {
   max-width: 600px;
@@ -38,6 +43,7 @@ button {
   opacity: 0.8;
   transition: 0.3s;
   margin-right: 10px;
+  
 }
 button:hover {
   opacity: 1;
@@ -70,22 +76,30 @@ select {
 }
 .complete {
   background-color: #5cb85c;
+  margin: 1rem;
 }
 .remove {
   background-color: #d9534f;
+  margin: 1rem;
+}
+.bloco {
+  margin: 1rem;
+}
+.content {
+  margin-left: 10px;
 }
 
-
-.filter, .search{
+.filter,
+.search {
   border-bottom: 1px solid #555;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
 .filter-options {
-display: flex;
-justify-content: space-between;
-gap: 3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
 }
-.filter-options div{
+.filter-options div {
   flex: 1 1 0;
 }
